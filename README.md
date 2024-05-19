@@ -5,9 +5,13 @@ Terraform to Create EC2 and RDS Instances Inside a Custom VPC on AWS
 Commands to run the file 
 
 Run terraform init
+
 Run terraform validate
-Run terraform plan -var-file="secrets.tfvars"  and review
+
+Run terraform plan -var-file="secrets.tfvars"    // for review
+
 Run terraform apply -var-file="secrets.tfvars"
+
 Run terraform destroy -var-file="secrets.tfvars"
 
 Description of Files in Terraform Project:
